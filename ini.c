@@ -19,3 +19,8 @@ void initialize(TLista* lista)
   lista->head=NULL;
   lista->tail=NULL;
 }
+int isEmpty(TLista lista)
+{
+  return lista.head==NULL;
+}
+  
